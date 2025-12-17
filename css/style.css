@@ -44,12 +44,14 @@ body {
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: all 0.3s ease;
     text-decoration: none;
+    display: inline-block;
 }
 
 .green-button:hover {
     background-color: #218838;
+    transform: translateY(-2px);
 }
 
 /* Blog Post Styling */
