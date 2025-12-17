@@ -37,6 +37,21 @@ body {
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1) !important;
 }
 
+.green-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+
+.green-button:hover {
+    background-color: #218838;
+}
+
 /* Blog Post Styling */
 #blogContent h1 {
     margin-bottom: 1rem;
